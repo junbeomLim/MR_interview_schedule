@@ -5,9 +5,13 @@
 랜덤으로 작동하기에, 작동할 때 마다 시간표 구성이 달라지며, 모든 사람이 시간표에 들어가지 않는 경우도 발생한다.
 remain에 남은 사람이 표시되며, 시간표를 다시 한번 작동시키거나 사람에 의한 수정이 필요할 수도 있다.
 
+엑셀 시트 예시와 코드를 함께 업로드 합니다.
+
 # MR_interview_schedule
 This is a program that creates an interview schedule for KAIST Robot Club MR. If you have an interview until Wednesday, you can activate and use all the commented parts (parts related to Wednesday).
 How the algorithm works
 After finding available people for each time zone, three people are randomly selected to fill out the timetable. Therefore, it cannot be said that this is the optimal case.
 Because it operates randomly, the timetable composition changes each time it operates, and there are cases where not everyone fits into the timetable.
 The remaining people are displayed in remain, and the timetable may need to be activated once again or modified by a human.
+
+Upload the Excel sheet example and code together.
